@@ -52,6 +52,7 @@ def test_werkzeug_log_file():
     logfile = os.path.exists(werkzeuglog)
     assert logfile == True
 
+
 def test_create_database():
     response = runner.invoke(create_database)
     assert response.exit_code == 0
