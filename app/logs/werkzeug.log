@@ -1,2 +1,22 @@
 2022-04-18 19:41:41,215 [INFO] werkzeug: 172.23.0.1 - - [18/Apr/2022 19:41:41] "GET / HTTP/1.1" 200 -
 2022-04-18 19:43:12,360 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/click_test.py', reloading
+2022-04-20 02:16:06,740 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:16:06] "GET / HTTP/1.1" 200 -
+2022-04-20 02:16:06,897 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:16:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-20 02:16:24,421 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:16:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-20 02:16:24,438 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:16:24] "GET /login HTTP/1.1" 200 -
+2022-04-20 02:16:37,138 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:16:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-20 02:16:37,148 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:16:37] "GET /login HTTP/1.1" 200 -
+2022-04-20 02:17:03,173 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:17:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-20 02:17:03,183 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:17:03] "GET /login HTTP/1.1" 200 -
+2022-04-20 02:17:14,461 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:17:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-20 02:17:14,470 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:17:14] "GET /login HTTP/1.1" 200 -
+2022-04-20 02:25:23,018 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/conftest.py', reloading
+2022-04-20 02:25:27,486 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:25:27] "GET / HTTP/1.1" 200 -
+2022-04-20 02:25:46,519 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:25:46] "GET /register HTTP/1.1" 200 -
+2022-04-20 02:26:09,684 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:26:09] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-04-20 02:26:09,699 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:26:09] "GET /login HTTP/1.1" 200 -
+2022-04-20 02:26:18,365 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:26:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-20 02:26:18,389 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:26:18] "GET /dashboard HTTP/1.1" 200 -
+2022-04-20 02:26:27,028 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:26:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-04-20 02:26:27,037 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:26:27] "GET /login HTTP/1.1" 200 -
+2022-04-20 02:30:41,676 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/conftest.py', reloading

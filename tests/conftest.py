@@ -1,9 +1,6 @@
 """This makes the test configuration setup"""
 #pylint: disable=redefined-outer-name
-
-import pytest
-
-from app import create_app
+import ...
 
 
 @pytest.fixture()
@@ -27,4 +24,3 @@ def client(application):
 def runner(application):
     """This makes the task runner"""
     return application.test_cli_runner()
-
