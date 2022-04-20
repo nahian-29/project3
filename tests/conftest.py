@@ -2,7 +2,7 @@
 #pylint: disable=redefined-outer-name
 import pytest
 
-from app.logging_config import log_con
+from app.logging_config import ('log_con',__name__)
 
 
 
