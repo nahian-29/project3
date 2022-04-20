@@ -1,6 +1,9 @@
 """This makes the test configuration setup"""
 #pylint: disable=redefined-outer-name
+
 import pytest
+
+from app import logging_config
 
 
 @pytest.fixture()
