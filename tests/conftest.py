@@ -2,15 +2,14 @@
 #pylint: disable=redefined-outer-name
 import pytest
 
-from app.logging_config import ('log_con',__name__)
-
+from app import create_app
 
 
 @pytest.fixture()
 def application():
     """This makes the app"""
 
-    application = log_con()
+    application = create_app()
     application.config.update({
         "TESTING": True,
     })
