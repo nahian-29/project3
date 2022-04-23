@@ -6,6 +6,8 @@ from flask import request, current_app
 
 from app.logging_config.log_formatters import RequestFormatter
 
+
+
 log_con = flask.Blueprint('log_con', __name__)
 
 
@@ -50,7 +52,7 @@ LOGGING_CONFIG = {
             'format': '%(asctime)s [%(levelname)s] %(name)s: %(message)s'
         },
         'RequestFormatter': {
-            '()': 'app.logging_config.log_formatters.RequestFormatter',
+            '()': 'RequestFormatter',
             'format': '[%(asctime)s] [%(process)d] %(remote_addr)s requested %(url)s'
                         '%(levelname)s in %(module)s: %(message)s'
         }

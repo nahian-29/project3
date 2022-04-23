@@ -20,3 +20,8 @@
 2022-04-20 02:26:27,028 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:26:27] "[32mGET /logout HTTP/1.1[0m" 302 -
 2022-04-20 02:26:27,037 [INFO] werkzeug: 172.23.0.1 - - [20/Apr/2022 02:26:27] "GET /login HTTP/1.1" 200 -
 2022-04-20 02:30:41,676 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/conftest.py', reloading
+2022-04-23 21:11:09,332 [INFO] werkzeug: 172.23.0.1 - - [23/Apr/2022 21:11:09] "GET / HTTP/1.1" 200 -
+2022-04-23 21:11:09,510 [INFO] werkzeug: 172.23.0.1 - - [23/Apr/2022 21:11:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-23 21:12:15,050 [INFO] werkzeug: 172.23.0.1 - - [23/Apr/2022 21:12:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-23 21:12:15,079 [INFO] werkzeug: 172.23.0.1 - - [23/Apr/2022 21:12:15] "GET /dashboard HTTP/1.1" 200 -
+2022-04-23 21:26:34,625 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
