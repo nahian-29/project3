@@ -4,7 +4,7 @@ from logging.config import dictConfig
 import flask
 from flask import request, current_app
 
-from app.logging_config.log_formatters import logging.Formatter
+from app.logging_config.log_formatters import RequestFormatter
 
 
 
