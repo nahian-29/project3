@@ -18,3 +18,4 @@ class RequestFormatter(logging.Formatter):
             record.remote_addr = None
 
         return super().format(record)
+

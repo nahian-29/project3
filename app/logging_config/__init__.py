@@ -4,7 +4,7 @@ from logging.config import dictConfig
 import flask
 from flask import request, current_app
 
-from app.logging_config.log_formatters import RequestFormatter
+from .log_formatters import RequestFormatter
 
 
 
@@ -52,7 +52,7 @@ LOGGING_CONFIG = {
             'format': '%(asctime)s [%(levelname)s] %(name)s: %(message)s'
         },
         'RequestFormatter': {
-            '()': 'RequestFormatter',
+            '()': 'app.logging_config.log_formatters.RequestFormatter',
             'format': '[%(asctime)s] [%(process)d] %(remote_addr)s requested %(url)s'
                         '%(levelname)s in %(module)s: %(message)s'
         }
