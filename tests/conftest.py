@@ -1,6 +1,10 @@
 """This makes the test configuration setup"""
 #pylint: disable=redefined-outer-name
 import pytest
+def pytest_addoption(parser):
+    print("First")
+    parser.addoption("--cmdopt", action="store", default="type1",
+        help="my option: type1 or type2")
 
 from app import create_app
 
